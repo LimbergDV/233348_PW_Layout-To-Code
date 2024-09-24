@@ -1,4 +1,30 @@
-.main-div-stats{
+.main-div-stats {
   background-color: rgba(59, 122, 87, 1);
   min-height: 200vh;
+  padding: 20px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  margin-bottom: 20px;
+}
+
+.image-container {
+  margin: 0 40px;
+  text-align: center;
+}
+
+.stats-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-subtitle1,
+.image-subtitle2,
+.image-subtitle3 {
+  font-size: 24px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 10px;
 }
