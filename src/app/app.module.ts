@@ -7,6 +7,8 @@ import { PrincipalViewComponent } from './principal-view/principal-view.componen
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { StatsViewComponent } from './stats-view/stats-view.component';
 import { BarStatsPlayersComponent } from './bar-stats-players/bar-stats-players.component';
+import { FootballPlayersViewComponent } from './football-players-view/football-players-view.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { BarStatsPlayersComponent } from './bar-stats-players/bar-stats-players.
     PrincipalViewComponent,
     NavBarComponent,
     StatsViewComponent,
-    BarStatsPlayersComponent
+    BarStatsPlayersComponent,
+    FootballPlayersViewComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

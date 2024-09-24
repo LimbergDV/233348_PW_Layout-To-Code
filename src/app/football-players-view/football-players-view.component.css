@@ -1,0 +1,23 @@
+.main-div-players{
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 47%, rgba(59, 122, 87, 1) 100%);
+  min-height: 100vh;
+}
+
+.main-div-players h1{
+  font-size: 80px;
+  font-family: 'Anton', sans-serif;
+  color: rgb(251, 251, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vh;
+}
+
+.main-div-players h2{
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+}

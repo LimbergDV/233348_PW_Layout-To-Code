@@ -6,7 +6,7 @@
 
 .image-row {
   display: flex;
-  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
@@ -20,11 +20,28 @@
   height: auto;
 }
 
-.image-subtitle1,
-.image-subtitle2,
-.image-subtitle3 {
+.image-subtitle1{
   font-size: 24px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: 'Anton', sans-serif;
   margin-bottom: 10px;
+  margin-right: 56vh;
+
+}
+
+.image-subtitle2{
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 10px;
+  margin-right: 66vh;
+}
+
+.image-subtitle3 {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 10px;
+  margin-right: 63vh;
+
 }
