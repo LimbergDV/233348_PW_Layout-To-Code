@@ -1,0 +1,27 @@
+.footer {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+.footer-logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 150px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.footer p:last-child {
+  margin-top: 10px;
+}
