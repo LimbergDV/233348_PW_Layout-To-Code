@@ -10,6 +10,7 @@ import { BarStatsPlayersComponent } from './bar-stats-players/bar-stats-players.
 import { FootballPlayersViewComponent } from './football-players-view/football-players-view.component';
 import { CardsComponent } from './cards/cards.component';
 import { GamesViewComponent } from './games-view/games-view.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GamesViewComponent } from './games-view/games-view.component';
     BarStatsPlayersComponent,
     FootballPlayersViewComponent,
     CardsComponent,
-    GamesViewComponent
+    GamesViewComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -45,3 +45,20 @@
   margin-right: 63vh;
 
 }
+
+.image-subtitle1:hover, .image-subtitle2:hover, .image-subtitle3:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #1100ff;
+  transition: text-shadow 0.5s ease, color 0.7s ease;
+}
+
+.stats-image {
+  max-width: 100%;
+  height: auto;
+  transition: transform 1.0s ease;
+}
+
+.stats-image:hover {
+  transform: scale(1.05);
+}
+
