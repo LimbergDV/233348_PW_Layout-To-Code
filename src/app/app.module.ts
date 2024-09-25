@@ -9,6 +9,7 @@ import { StatsViewComponent } from './stats-view/stats-view.component';
 import { BarStatsPlayersComponent } from './bar-stats-players/bar-stats-players.component';
 import { FootballPlayersViewComponent } from './football-players-view/football-players-view.component';
 import { CardsComponent } from './cards/cards.component';
+import { GamesViewComponent } from './games-view/games-view.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardsComponent } from './cards/cards.component';
     StatsViewComponent,
     BarStatsPlayersComponent,
     FootballPlayersViewComponent,
-    CardsComponent
+    CardsComponent,
+    GamesViewComponent
   ],
   imports: [
     BrowserModule,
