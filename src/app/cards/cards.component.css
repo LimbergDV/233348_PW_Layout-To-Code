@@ -43,3 +43,17 @@
   font-family: 'Anuphan', sans-serif;
 }
 
+.card{
+  max-width: 100%;
+  height: auto;
+  transition: transform 2.0s ease;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+  color: #fff;
+  text-shadow: 10px 10px 10px #fde825;
+  transition: text-shadow 0.5s ease, color 0.7s ease;
+  outline: 10px solid #fde825;
+}
